@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="script.js"></script>
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading" style="color: black">
+        Hangman game
+        <sub style="font-size: 15px">
+          <i>created by Samra Abdurahmanli</i>
+        </sub>
+      </h1>
+
+      <div class="general">
+        <div class="float-right">
+          Wrong Guesses: <span id="mistakes">0</span> of
+          <span id="maxWrong"></span>
+        </div>
+        <div class="text-center">
+          <img id="hangmanPic" src="./assets/img/0.jpg" alt="" />
+          <p>Guess the Programming Language:</p>
+          <p id="wordSpotlight">The word to be guessed goes here</p>
+          <div id="keyboard"></div>
+          <button class="btn btn-info" onClick="reset()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h6 class="text-center">Copyright © 2021</h6>
+    </footer>
+  </body>
+</html>
