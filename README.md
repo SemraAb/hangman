@@ -1,2 +1,2 @@
 # Hangman Game 
-You can see my site here [Exercise One](https://semraab.github.io/hangman/).
+You can see my site here [Hangman](https://semraab.github.io/hangman/).
